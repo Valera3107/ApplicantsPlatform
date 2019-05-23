@@ -7,20 +7,16 @@ import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.validation.BindingResult;
-import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.ua.dto.EnrolleeDTOHelper;
 import com.ua.selectionCommittee.dao.EnrolleeRepository;
 import com.ua.selectionCommittee.domain.Administrator;
 import com.ua.selectionCommittee.domain.Enrollee;
-import com.ua.selectionCommittee.domain.Statement;
-import com.ua.selectionCommittee.service.AdministratorService;
+import com.ua.selectionCommittee.dto.EnrolleeDTOHelper;
 import com.ua.selectionCommittee.service.EnrolleeService;
 import com.ua.selectionCommittee.service.StatementService;
 

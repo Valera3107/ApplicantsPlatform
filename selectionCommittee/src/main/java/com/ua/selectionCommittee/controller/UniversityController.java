@@ -11,11 +11,10 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.ua.dto.UniversityDTOHelper;
 import com.ua.selectionCommittee.dao.UniversityRepository;
 import com.ua.selectionCommittee.domain.University;
+import com.ua.selectionCommittee.dto.UniversityDTOHelper;
 import com.ua.selectionCommittee.service.UniversityService;
-import com.zaxxer.hikari.util.SuspendResumeLock;
 
 @Controller
 public class UniversityController {
