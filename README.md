@@ -8,3 +8,4 @@ Technologies which used:
 -JS
 -MySQL
 -design pattern MVC
+-JUnit
