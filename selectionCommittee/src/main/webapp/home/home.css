@@ -1,0 +1,118 @@
+.header {
+	width: 100%;
+	height: 60px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.masthead {
+	height: 100vh;
+	min-height: 500px;
+	background-image:
+		url('https://i.pinimg.com/originals/2e/c5/89/2ec5898721280f8885b287c57f017864.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.poster-title {
+	color: white;
+}
+
+.poster-text {
+	color: white;
+}
+
+.logout {
+	border-radius: 10px;
+	background-color: black;
+	color: white;
+	padding: 1px 14px;
+	border-style: none;
+	margin-top: 7px;
+}
+
+.user-item {
+	font-family: inherit;
+	font-weight: 500;
+	margin: 0;
+	line-height: 39px;
+}
+
+.page-content {
+	text-align: center;
+	background-image:
+		url('https://previews.123rf.com/images/phongphan/phongphan1705/phongphan170500084/77907853-black-grunge-texture-place-over-any-object-create-black-dirty-grunge-effect-distress-grunge-texture-.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.main-title {
+	font-family: fantasy;
+	font-size: 36px;
+	line-height: 82px;
+	position: relative;
+}
+
+.main-title::before {
+	position: absolute;
+	bottom: 5px;
+	left: 609px;
+	content: "";
+	width: 280px;
+	height: 3px;
+	border-radius: 5px;
+	background-color: #a6a6a6;
+}
+
+.edit {
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	width: 32px;
+	height: 32px;
+	opacity: 0.5;
+	background-color: aliceblue;
+	border-radius: 5px;
+	color: black;
+	font-size: 26px;
+	padding: 5px;
+}
+
+.close {
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	width: 32px;
+	height: 32px;
+	opacity: 0.3;
+	background-color: aliceblue;
+	border-radius: 5px;
+}
+
+.close:hover {
+	opacity: 1;
+}
+
+.edit:hover {
+	opacity: 1;
+	color: black;
+}
+
+.close:before, .close:after {
+	position: absolute;
+	left: 15px;
+	content: ' ';
+	height: 33px;
+	width: 2px;
+	background-color: #333;
+}
+
+.close:before {
+	transform: rotate(45deg);
+}
+
+.close:after {
+	transform: rotate(-45deg);
+}
