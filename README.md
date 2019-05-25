@@ -9,3 +9,4 @@ Technologies which have used:
 -MySQL
 -design pattern MVC
 -JUnit
+-Log4j
